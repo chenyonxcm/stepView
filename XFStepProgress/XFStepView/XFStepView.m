@@ -125,7 +125,7 @@
     }
 }
 
-- (void)setStepIndex:(int)stepIndex Animation:(BOOL)animation {
+- (void)setStepIndex:(NSInteger)stepIndex Animation:(BOOL)animation {
     if (stepIndex >= 0 && stepIndex < self.titles.count) {
         if (animation) {
             [UIView animateWithDuration:0.5 animations:^{

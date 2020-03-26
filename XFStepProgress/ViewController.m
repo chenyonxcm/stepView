@@ -28,13 +28,13 @@
 - (IBAction)clickPer:(id)sender
 {
 
-    int step = _stepView.stepIndex;
+    NSInteger step = _stepView.stepIndex;
     [_stepView setStepIndex:step - 1 Animation:YES];
 }
 
 - (IBAction)clickNext:(id)sender
 {
-    int step = _stepView.stepIndex;
+    NSInteger step = _stepView.stepIndex;
     [_stepView setStepIndex:step + 1 Animation:YES];
 }
 

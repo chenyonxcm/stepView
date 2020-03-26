@@ -18,6 +18,6 @@
 
 - (instancetype _Nonnull )initWithFrame:(CGRect)frame Titles:(nonnull NSArray *)titles;
 
-- (void)setStepIndex:(int)stepIndex Animation:(BOOL)animation;
+- (void)setStepIndex:(NSInteger)stepIndex Animation:(BOOL)animation;
 
 @end
