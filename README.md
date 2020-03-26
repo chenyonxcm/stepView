@@ -8,4 +8,4 @@ XFStepView *stepView = [[XFStepView alloc]initWithFrame:CGRectMake(0, 50, self.v
 
 [self.view addSubview:stepView];
 
-有疑问请联系qq:304792845
+有疑问请联系微信：18709863550
