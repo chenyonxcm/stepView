@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"这是一个测试用例");
     _stepView = [[XFStepView alloc]initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 60) Titles:[NSArray arrayWithObjects:@"第一步", @"第二步", @"第三步", nil]];
     _stepView.stepIndex = 1;
     [self.view addSubview:_stepView];
